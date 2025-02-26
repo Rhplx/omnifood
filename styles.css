@@ -2,12 +2,6 @@
 
 /*Estilos Globales*/
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
     --primary: #fdf2e9;
     --secondary: #e67e22;
@@ -18,5 +12,40 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Rubik", serif;
+  }
+
+  /*Estilos Header*/
+
+header {
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+    align-items: center;
+  }
+  
+  header img {
+    height: 22px;
+  }
+  
+  header ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    align-items: center;
+  }
+  
+  header li {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  header button {
+    background-color: var(--secondary);
+    font-size: 18px;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 9px;
+    font-weight: 500;
   }
   
