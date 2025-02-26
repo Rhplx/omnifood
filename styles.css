@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 /*Estilos Globales*/
 
@@ -7,3 +7,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+    --primary: #fdf2e9;
+    --secondary: #e67e22;
+  }
