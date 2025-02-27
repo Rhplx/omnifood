@@ -61,9 +61,8 @@ header {
     font-weight: 500;
   }
 
-  /* Estilos Hero*/
-
   /* Estilos Body */
+
 
 .hero {
   padding: 48px 0 96px;
@@ -127,4 +126,35 @@ header {
 }
 .hero__delivered__meals {
   color: var(--secondary);
+}
+
+/*Apartado Featured*/
+
+.featured{
+  padding:38px 0px 26px;
+  margin:0 34px;
+}
+
+.featured__brands{
+  font-size: 11px;
+  margin-bottom: 19px;
+  color:#888888;
+  text-align: center;
+}
+
+.brand__imgs{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 26px;
+  max-width: 100%;
+  gap:30px;
+  margin:0 auto;
+  
+}
+
+.brand__imgs img{
+  width: 145px;
+  height: auto;
+  object-fit:contain;
+
 }
