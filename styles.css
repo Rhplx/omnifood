@@ -3,66 +3,64 @@
 /*Estilos Globales*/
 
 :root {
-    --primary: #fdf2e9;
-    --secondary: #e67e22;
-  }
+  --primary: #fdf2e9;
+  --secondary: #e67e22;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Rubik", serif;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", serif;
+}
 
-  button {
-    background-color: transparent;
-    border: 0;
-  }
+button {
+  background-color: transparent;
+  border: 0;
+}
 
-  h1 {
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 29px;
-  }
-  
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 29px;
+}
 
-  /*Estilos Header*/
+/*Estilos Header*/
 
 header {
-    padding: 48px;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--primary);
-    align-items: center;
-  }
-  
-  header img {
-    height: 22px;
-  }
-  
-  header ul {
-    display: flex;
-    gap: 48px;
-    list-style: none;
-    align-items: center;
-  }
-  
-  header li {
-    font-size: 18px;
-    font-weight: 500;
-  }
-  
-  header button {
-    background-color: var(--secondary);
-    font-size: 18px;
-    color: white;
-    padding: 10px 22px;
-    border-radius: 9px;
-    font-weight: 500;
-  }
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary);
+  align-items: center;
+}
 
-  /* Estilos Body */
+header img {
+  height: 22px;
+}
 
+header ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  align-items: center;
+}
+
+header li {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header button {
+  background-color: var(--secondary);
+  font-size: 18px;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 9px;
+  font-weight: 500;
+}
+
+/* Estilos Body */
 
 .hero {
   padding: 48px 0 96px;
@@ -96,7 +94,7 @@ header {
   font-weight: 600;
 }
 
-.hero__2nd__button{
+.hero__2nd__button {
   background-color: white;
   font-size: 18px;
   padding: 15px 28px;
@@ -130,31 +128,29 @@ header {
 
 /*Apartado Featured*/
 
-.featured{
-  padding:38px 0px 26px;
-  margin:0 34px;
+.featured {
+  padding: 38px 0px 26px;
+  margin: 0 34px;
 }
 
-.featured__brands{
+.featured__brands {
   font-size: 11px;
   margin-bottom: 19px;
-  color:#888888;
+  color: #888888;
   text-align: center;
 }
 
-.brand__imgs{
+.brand__imgs {
   display: flex;
   justify-content: space-around;
   padding: 0px 26px;
   max-width: 100%;
-  gap:30px;
-  margin:0 auto;
-  
+  gap: 30px;
+  margin: 0 auto;
 }
 
-.brand__imgs img{
+.brand__imgs img {
   width: 145px;
   height: auto;
-  object-fit:contain;
-
+  object-fit: contain;
 }
