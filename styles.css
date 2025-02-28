@@ -25,6 +25,24 @@ h1 {
   margin-bottom: 29px;
 }
 
+.secondary__section__heading {
+  margin: 0 0 40px;
+  font-size: 40px;
+  color: #333333;
+}
+
+.tertiary__heading {
+  font-weight: 600;
+  font-size: 29px;
+  margin: 0 0 29px;
+}
+
+.section__subtitle {
+  color: var(--secondary);
+  margin-bottom: 13px;
+  font-weight: 600;
+}
+
 /*Estilos Header*/
 
 header {
@@ -166,18 +184,6 @@ header button {
   margin: 0 auto;
 }
 
-.how__section__subtitle {
-  color: var(--secondary);
-  margin-bottom: 13px;
-  font-weight: 500;
-}
-
-.how__section__heading {
-  margin: 0 0 40px;
-  font-size: 40px;
-  color: #333333;
-}
-
 /*Estilos step_box*/
 
 .how__step__box {
@@ -192,12 +198,6 @@ header button {
   margin: 0 0 10px;
   color: #dddddd;
   font-weight: 600;
-}
-
-.step__heading {
-  font-weight: 600;
-  font-size: 29px;
-  margin: 0 0 29px;
 }
 
 .step__description {
@@ -219,4 +219,84 @@ header button {
   width: 460px;
   margin: 30px 50px;
   padding: 20px;
+}
+
+/*Estilos MEALS*/
+
+.heading_center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 0 43px;
+  padding: 29px;
+  column-gap: 4.8rem;
+  row-gap: 5rem;
+}
+
+.grid__container img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.meal__info {
+  padding: 19px 26px 26px;
+}
+
+.meal__tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.tags {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.tags__vegetarian {
+  background-color: #51cf66;
+}
+
+.tags__vegan {
+  background-color: #94d82d;
+}
+
+.tags__paleo {
+  background-color: #ffd43b;
+}
+
+.meal__title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 29px;
+}
+
+.meal__attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #555555;
+}
+
+.diet__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 16px;
+  color: #555555;
 }
