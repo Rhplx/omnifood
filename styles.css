@@ -322,6 +322,7 @@ ul {
   display:grid;
   grid-template-columns: 45% 55%;
   align-items: center;
+  gap:4rem;
 }
 
 .testimonials__container{
@@ -338,4 +339,17 @@ ul {
   grid-template-columns: 1fr 1fr;
   column-gap: 8rem;
   row-gap: 5rem;
+}
+
+.testimonial__gallery{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap:1.6rem;
+  align-items:center;
+}
+
+.testimonial__gallery img{
+  height: auto;
+  max-width: 100%;  
 }
