@@ -321,5 +321,21 @@ ul {
 #testimonials__grid{
   display:grid;
   grid-template-columns: 45% 55%;
-  
+  align-items: center;
+}
+
+.testimonials__container{
+  padding: 86px 29px;
+}
+
+.testimonials__container img{
+  width: 4em;
+  border-radius: 100%;
+}
+
+.testimonials__figure__grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8rem;
+  row-gap: 5rem;
 }
