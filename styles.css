@@ -14,9 +14,24 @@
   font-family: "Rubik", serif;
 }
 
+.__section {
+  padding: 77px 32px;
+  margin: 0 34px;
+}
+
 button {
   background-color: transparent;
   border: 0;
+}
+
+.__button {
+  background-color: var(--secondary);
+  color: white;
+  margin: 0 14px 0 0;
+  padding: 15px 28px;
+  border-radius: 9px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 h1 {
@@ -106,16 +121,6 @@ header button {
   font-weight: 400;
 }
 
-.hero__button {
-  background-color: var(--secondary);
-  color: white;
-  margin: 0 14px 0 0;
-  padding: 15px 28px;
-  border-radius: 9px;
-  font-size: 18px;
-  font-weight: 600;
-}
-
 .hero__2nd__button {
   background-color: white;
   font-size: 18px;
@@ -178,11 +183,6 @@ header button {
 }
 
 /*Estilos section HOW*/
-
-.__section {
-  padding: 77px 32px;
-  margin: 0 34px;
-}
 
 .how__section__container {
   margin: 0 auto;
@@ -304,52 +304,94 @@ ul {
   gap: 2rem;
   font-size: 18px;
   color: #555555;
-
 }
 
-.link__container{
+.link__container {
   text-align: center;
   padding: 0 28px;
   width: 100%;
-  font-size:18px;
+  font-size: 18px;
   color: var(--secondary);
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 /*Grid Testimonials*/
 
-#testimonials__grid{
-  display:grid;
+#testimonials__grid {
+  display: grid;
   grid-template-columns: 45% 55%;
   align-items: center;
-  gap:4rem;
+  gap: 4rem;
 }
 
-.testimonials__container{
+.testimonials__container {
   padding: 86px 29px;
 }
 
-.testimonials__container img{
+.testimonials__container img {
   width: 4em;
   border-radius: 100%;
+  margin-bottom: 15px;
 }
 
-.testimonials__figure__grid{
+.testimonials__figure__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 8rem;
   row-gap: 5rem;
 }
 
-.testimonial__gallery{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 20px;
-  gap:1.6rem;
-  align-items:center;
+.testimonials__figure__grid blockquote {
+  color: #555555;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
 }
 
-.testimonial__gallery img{
+.testimonials__figure__grid p {
+  color: #6f6f6f;
+}
+
+.testimonial__gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.testimonial__gallery img {
   height: auto;
-  max-width: 100%;  
+  max-width: 100%;
+}
+
+/*Estilos Pricing*/
+
+.pricing__grid__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 29px;
+  margin: 0 0 40px;
+}
+
+.pricing__plan {
+  padding: 44px;
+}
+
+.pricing__description {
+  margin-bottom: 1.4rem;
+}
+
+.pricing__plan__name {
+  color: var(--secondary);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.plan__price{
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color:#333333
 }
